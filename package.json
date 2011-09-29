@@ -1,0 +1,22 @@
+{
+  "name": "datastores",
+  "version": "0.0.1",
+  
+  "description": "Abstractions and wrappers for datastores.",
+  
+  "main": "lib/datastores.js",
+  
+  "dependencies": {
+    "underscore": "=1.1.7",
+    "strftime": "=0.4.6",
+    "keyjson": ">=1.0.1",
+    "tafa-misc-util": "=0.1.6"
+  },
+  
+  "author": "Andrew Schaaf <andrew@andrewschaaf.com> (http://andrewschaaf.com)",
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewschaaf/node-datastores.git"
+  }
+}
