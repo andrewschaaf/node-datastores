@@ -14,18 +14,18 @@ class Mock
   constructor: () ->
     @items = {}
   
-  get: (k, cb) ->
+  get: (k, cb=->) ->
     k = normalize k
     v = @items[enc k] or null
     cb null, v
   
-  set: (k, v, cb) ->
+  set: (k, v, cb=->) ->
     k = normalize k
     v = normalize v
     @items[enc k] = v
     cb null
   
-  getRange: ({k__prefix, max}, cb) ->
+  getRange: ({k__prefix, max}, cb=->) ->
     k__prefix = normalize k__prefix if k__prefix
     items = []
     for own k64, v of @items
