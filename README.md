@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/andrewschaaf/node-datastores.png)](http://travis-ci.org/andrewschaaf/node-datastores)
 
 # Stuff
 <pre>
